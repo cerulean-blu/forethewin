@@ -13,13 +13,13 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-playfair">
           Master Your Golf
           <span className="block text-golf-accent">Swing Today</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
           Professional golf instruction tailored to your skill level. 
           Learn from an experienced PGA instructor and take your game to the next level.
         </p>
@@ -28,7 +28,7 @@ const Hero = () => {
           <Button variant="hero" size="lg" className="text-lg px-8 py-4">
             Book Your First Lesson
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-foreground">
+          <Button variant="heroOutline" size="lg" className="text-lg px-8 py-4">
             View Lesson Packages
           </Button>
         </div>
@@ -37,15 +37,15 @@ const Hero = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <div className="text-3xl font-bold text-golf-accent">500+</div>
-            <div className="text-white/80">Students Taught</div>
+            <div className="text-primary-foreground/80">Students Taught</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-golf-accent">15+</div>
-            <div className="text-white/80">Years Experience</div>
+            <div className="text-primary-foreground/80">Years Experience</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-golf-accent">PGA</div>
-            <div className="text-white/80">Certified Professional</div>
+            <div className="text-primary-foreground/80">Certified Professional</div>
           </div>
         </div>
       </div>

@@ -61,7 +61,7 @@ const Services = () => {
                     <CardTitle className="text-2xl text-foreground">{service.title}</CardTitle>
                     <div className="flex items-center gap-4 mt-2">
                       <span className="text-muted-foreground">{service.duration}</span>
-                      <span className="text-2xl font-bold text-primary">{service.price}</span>
+                      <span className="text-sm text-muted-foreground">Pricing on request</span>
                     </div>
                   </div>
                 </div>
