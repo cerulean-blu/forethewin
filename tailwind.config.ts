@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        golf: {
+          green: "hsl(var(--golf-green))",
+          "green-light": "hsl(var(--golf-green-light))",
+          fairway: "hsl(var(--golf-fairway))",
+          sand: "hsl(var(--golf-sand))",
+          accent: "hsl(var(--golf-accent))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +69,14 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
+      },
+      boxShadow: {
+        'golf': 'var(--shadow-golf)',
+        'card': 'var(--shadow-card)',
       },
       keyframes: {
         "accordion-down": {
