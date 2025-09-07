@@ -18,7 +18,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">ProGolf Lessons</h1>
+            <h1 className="text-2xl font-bold text-primary">Fore The Win</h1>
           </div>
           
           {/* Desktop Navigation */}
